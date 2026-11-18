@@ -79,6 +79,7 @@ def main():
     bars = {}
     cycle, fails_in_row, started = 0, 0, time.time()
     end = datetime.fromisoformat(C.RUN_UNTIL)
+    save_state(STATE, state)
     say(f"bot start: {len(traders)} paper bots, symbols {syms}; PAPER ONLY")
     while True:
         now = clock_now()
