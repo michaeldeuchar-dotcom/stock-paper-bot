@@ -69,6 +69,9 @@ jobs:
           for s in AAPL SPY JPM; do
             echo "$(curl -s -o /dev/null -m 10 -A 'Mozilla/5.0' -w '%{http_code}' "https://query1.finance.yahoo.com/v8/finance/chart/$s?interval=1m&range=1d")  yahoo chart $s"
           done
+      - name: Selftest - replay the latest session through all 12 strategies (manual force runs only)
+        if: inputs.force == 'true'
+        run: python3 replay.py --days 2
       - name: Run paper bot slice
         env:
           RUN_SECONDS: ${{ inputs.run_seconds || '20400' }}
