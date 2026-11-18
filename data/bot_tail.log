@@ -1,2 +1,2 @@
-2026-11-18 15:11:36 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
-2026-11-18 15:11:36 idle: market closed (regular session 6:30 AM-1:00 PM PT); next session Thu Nov 19 06:30-13:00 PT. Exiting; cron/chain restarts me for the open.
+2026-11-18 15:13:06 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
+2026-11-18 15:13:06 idle: market closed (regular session 6:30 AM-1:00 PM PT); next session Thu Nov 19 06:30-13:00 PT. Exiting; cron/chain restarts me for the open.
