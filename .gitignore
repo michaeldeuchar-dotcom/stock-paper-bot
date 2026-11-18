@@ -1,0 +1,12 @@
+# Run data lives on the `data` branch, never on main
+data/
+STOP.local
+.slice_stop
+*.log
+*.pid
+__pycache__/
+*.pyc
+.env
+.env.*
+*.key
+*.pem

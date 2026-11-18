@@ -1,0 +1,86 @@
+name: stock-paper-bot
+
+# PAPER (fake money) run only. No broker, no API keys, no secrets are used or needed.
+on:
+  workflow_dispatch:
+    inputs:
+      chained:
+        description: "Started by the previous slice (skip the overlap check)"
+        default: "false"
+      force:
+        description: "Run even outside market hours (the bot just idles and exits cleanly)"
+        default: "false"
+      run_seconds:
+        description: "How long this slice runs (seconds)"
+        default: "20400"
+  schedule:
+    # Weekday mornings (UTC; 6:15-6:45 AM PT in winter) + hourly backup through the session.
+    # The gate job ends in ~10s when the market is closed or a run is already active.
+    - cron: "12,27,42 14 * * 1-5"
+    - cron: "17 15-20 * * 1-5"
+
+permissions:
+  contents: write   # save state to the `data` branch
+  actions: write    # start the next slice
+
+env:
+  TZ: America/Los_Angeles
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      go: ${{ steps.check.outputs.go }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f STOP ]; then echo "STOP file on main: not running"; echo "go=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          res=$(python3 scripts/gate.py); echo "$res"
+          if [ "${{ inputs.force }}" = "true" ]; then echo "force=true: running anyway (bot will idle if closed)"; echo "go=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          case "$res" in go=true*) ;; *) echo "go=false" >> "$GITHUB_OUTPUT"; exit 0;; esac
+          if [ "${{ inputs.chained }}" = "true" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          others=$(gh api "repos/${{ github.repository }}/actions/workflows/stock-bot.yml/runs?per_page=30" \
+            --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }}) | select(.status==\"in_progress\" or .status==\"queued\" or .status==\"waiting\" or .status==\"pending\")] | length")
+          echo "other active runs: $others"
+          if [ "$others" = "0" ]; then echo "go=true" >> "$GITHUB_OUTPUT"; else echo "go=false" >> "$GITHUB_OUTPUT"; fi
+
+  run:
+    needs: gate
+    if: needs.gate.outputs.go == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    concurrency:
+      group: stock-bot-slice
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q requests pandas numpy
+      - name: Check the free price feed from this runner
+        run: |
+          for s in AAPL SPY JPM; do
+            echo "$(curl -s -o /dev/null -m 10 -A 'Mozilla/5.0' -w '%{http_code}' "https://query1.finance.yahoo.com/v8/finance/chart/$s?interval=1m&range=1d")  yahoo chart $s"
+          done
+      - name: Run paper bot slice
+        env:
+          RUN_SECONDS: ${{ inputs.run_seconds || '20400' }}
+        run: |
+          if [ -f STOP ]; then echo "STOP file committed on main; not running"; exit 0; fi
+          bash scripts/ci_run.sh
+      - name: Start next slice
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -f STOP ]; then echo "STOP on main; chain ends"; exit 0; fi
+          res=$(python3 scripts/gate.py --chain); echo "$res"
+          case "$res" in go=true*) ;; *) echo "market not in session; chain ends (cron restarts it at the next open)"; exit 0;; esac
+          for i in 1 2 3; do gh workflow run stock-bot.yml --ref "${{ github.ref_name }}" -f chained=true && break; sleep 10; done
