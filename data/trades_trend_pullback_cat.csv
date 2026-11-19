@@ -1,2 +1,3 @@
 bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
 trend_pullback_cat,CAT,trend_pullback,long,3,2026-11-19,2026-11-19T07:05:00,564.0178,2026-11-19T07:10:00,562.7772,-3.72,-0.22,0,stop,"5m uptrend (EMA20>EMA50 by 0.11%), dipped to EMA20 560.42, green close",5.0,9996.28
+trend_pullback_cat,CAT,trend_pullback,short,3,2026-11-19,2026-11-19T08:45:00,550.3749,2026-11-19T08:52:00,548.283,6.28,0.38,1,target,"5m downtrend (EMA20<EMA50 by -0.50%), bounced to EMA20 552.83, red close",7.0,10002.55

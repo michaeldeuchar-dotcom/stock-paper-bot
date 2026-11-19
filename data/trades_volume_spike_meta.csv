@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+volume_spike_meta,META,vol_spike,short,3,2026-11-19,2026-11-19T08:53:00,612.2375,2026-11-19T08:55:00,614.197,-5.88,-0.32,0,stop,"volume 3.3x avg, close 612.36 < 30-min low 613.74",2.0,9994.12
