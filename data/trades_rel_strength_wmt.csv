@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+rel_strength_wmt,WMT,rel_strength,short,16,2026-11-19,2026-11-19T08:20:00,124.75,2026-11-19T08:26:00,125.1493,-6.39,-0.32,0,stop,"1h stock -0.97% vs SPY -0.51% (rel -0.46%), below VWAP 124.85",6.0,9993.61
