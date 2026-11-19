@@ -1,2 +1,5 @@
-2026-11-18 15:13:06 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
-2026-11-18 15:13:06 idle: market closed (regular session 6:30 AM-1:00 PM PT); next session Thu Nov 19 06:30-13:00 PT. Exiting; cron/chain restarts me for the open.
+2026-11-19 07:01:08 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
+2026-11-19 07:01:14 HEARTBEAT phase=trading cycle=1 open=0 errors=0 max_lag=-47s fleet_pnl=$+0.00
+2026-11-19 07:05:11 ENTER trend_pullback_cat long 3 CAT @ 564.02 stop 562.89 tp 566.27 | 5m uptrend (EMA20>EMA50 by 0.11%), dipped to EMA20 560.42, green close
+2026-11-19 07:06:11 HEARTBEAT phase=trading cycle=6 open=1 errors=0 max_lag=-43s fleet_pnl=$+0.00
+2026-11-19 07:10:11 EXIT  trend_pullback_cat long 3 CAT @ 562.78 (stop) pnl $-3.72
