@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+momentum_hhll_nvda,NVDA,momentum,short,13,2026-11-19,2026-11-19T07:35:00,152.4995,2026-11-19T07:59:00,153.1401,-8.33,-0.42,0,stop,"1h -2.79%, eff 29%, LL 3/3 LH 3/3, down/up vol 1.39x",24.0,9991.67
