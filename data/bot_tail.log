@@ -3,3 +3,5 @@
 2026-11-19 07:05:11 ENTER trend_pullback_cat long 3 CAT @ 564.02 stop 562.89 tp 566.27 | 5m uptrend (EMA20>EMA50 by 0.11%), dipped to EMA20 560.42, green close
 2026-11-19 07:06:11 HEARTBEAT phase=trading cycle=6 open=1 errors=0 max_lag=-43s fleet_pnl=$+0.00
 2026-11-19 07:10:11 EXIT  trend_pullback_cat long 3 CAT @ 562.78 (stop) pnl $-3.72
+2026-11-19 07:11:11 HEARTBEAT phase=trading cycle=11 open=0 errors=0 max_lag=-53s fleet_pnl=$-3.72
+2026-11-19 07:16:11 HEARTBEAT phase=trading cycle=16 open=0 errors=0 max_lag=-48s fleet_pnl=$-3.72
