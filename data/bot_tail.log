@@ -1,6 +1,4 @@
-2026-11-19 12:42:04 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
-2026-11-19 12:42:12 HEARTBEAT phase=trading cycle=1 open=0 errors=0 max_lag=-50s fleet_pnl=$+5.31
-2026-11-19 12:47:12 HEARTBEAT phase=trading cycle=6 open=0 errors=0 max_lag=-49s fleet_pnl=$+5.31
-2026-11-19 12:52:12 HEARTBEAT phase=trading cycle=11 open=0 errors=0 max_lag=-52s fleet_pnl=$+5.31
-2026-11-19 12:57:12 HEARTBEAT phase=trading cycle=16 open=0 errors=0 max_lag=-37s fleet_pnl=$+5.31
-2026-11-19 13:00:12 session over, all flat; exiting
+2026-11-20 06:59:58 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
+2026-11-20 07:00:04 HEARTBEAT phase=trading cycle=1 open=0 errors=0 max_lag=5s fleet_pnl=$+5.31
+2026-11-20 07:05:11 ENTER trend_pullback_cat short 3 CAT @ 535.05 stop 536.12 tp 532.91 | 5m downtrend (EMA20<EMA50 by -0.68%), bounced to EMA20 536.39, red close
+2026-11-20 07:05:11 HEARTBEAT phase=trading cycle=6 open=1 errors=0 max_lag=-52s fleet_pnl=$+5.31
