@@ -2,3 +2,4 @@ bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,p
 trend_pullback_cat,CAT,trend_pullback,long,3,2026-11-19,2026-11-19T07:05:00,564.0178,2026-11-19T07:10:00,562.7772,-3.72,-0.22,0,stop,"5m uptrend (EMA20>EMA50 by 0.11%), dipped to EMA20 560.42, green close",5.0,9996.28
 trend_pullback_cat,CAT,trend_pullback,short,3,2026-11-19,2026-11-19T08:45:00,550.3749,2026-11-19T08:52:00,548.283,6.28,0.38,1,target,"5m downtrend (EMA20<EMA50 by -0.50%), bounced to EMA20 552.83, red close",7.0,10002.55
 trend_pullback_cat,CAT,trend_pullback,short,3,2026-11-19,2026-11-19T10:45:00,541.3617,2026-11-19T11:27:00,542.5529,-3.57,-0.22,0,stop,"5m downtrend (EMA20<EMA50 by -0.82%), bounced to EMA20 542.42, red close",42.0,9998.98
+trend_pullback_cat,CAT,trend_pullback,short,3,2026-11-20,2026-11-20T07:05:00,535.0529,2026-11-20T07:10:00,533.0193,6.1,0.38,1,target,"5m downtrend (EMA20<EMA50 by -0.68%), bounced to EMA20 536.39, red close",5.0,10005.08
