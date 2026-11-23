@@ -65,3 +65,5 @@
 2026-11-23 10:46:11 HEARTBEAT phase=trading cycle=216 open=2 errors=0 max_lag=-51s fleet_pnl=$-44.64
 2026-11-23 10:48:11 EXIT  vwap_pullback_msft short 4 MSFT @ 496.10 (target) pnl $+9.57
 2026-11-23 10:51:11 HEARTBEAT phase=trading cycle=221 open=1 errors=0 max_lag=-33s fleet_pnl=$-35.06
+2026-11-23 10:56:11 HEARTBEAT phase=trading cycle=226 open=1 errors=0 max_lag=12s fleet_pnl=$-35.06
+2026-11-23 11:01:11 HEARTBEAT phase=trading cycle=231 open=1 errors=0 max_lag=-43s fleet_pnl=$-35.06
