@@ -7,3 +7,4 @@ trend_pullback_cat,CAT,trend_pullback,short,3,2026-11-20,2026-11-20T10:30:00,515
 trend_pullback_cat,CAT,trend_pullback,short,3,2026-11-20,2026-11-20T11:15:00,515.6468,2026-11-20T11:17:00,517.3534,-5.12,-0.331,0,stop (gap),"5m downtrend (EMA20<EMA50 by -0.74%), bounced to EMA20 516.85, red close",2.0,9996.56
 trend_pullback_cat,CAT,trend_pullback,long,3,2026-11-23,2026-11-23T08:50:00,545.9642,2026-11-23T08:59:00,548.0384,6.22,0.38,1,target,"5m uptrend (EMA20>EMA50 by 1.53%), dipped to EMA20 545.35, green close",9.0,10002.78
 trend_pullback_cat,CAT,trend_pullback,long,3,2026-11-23,2026-11-23T09:55:00,548.4397,2026-11-23T09:59:00,547.2333,-3.62,-0.22,0,stop,"5m uptrend (EMA20>EMA50 by 1.04%), dipped to EMA20 547.02, green close",4.0,9999.16
+trend_pullback_cat,CAT,trend_pullback,long,3,2026-11-23,2026-11-23T10:35:00,548.0996,2026-11-23T10:39:00,546.894,-3.62,-0.22,0,stop,"5m uptrend (EMA20>EMA50 by 0.79%), dipped to EMA20 547.49, green close",4.0,9995.55
