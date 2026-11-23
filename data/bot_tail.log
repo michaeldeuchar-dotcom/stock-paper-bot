@@ -7,3 +7,5 @@
 2026-11-23 07:26:11 HEARTBEAT phase=trading cycle=16 open=0 errors=0 max_lag=-51s fleet_pnl=$-28.77
 2026-11-23 07:28:11 ENTER vwap_pullback_msft short 3 MSFT @ 504.30 stop 505.56 tp 501.78 | downtrend (day -0.33%, VWAP falling) bounced to VWAP 504.91, red bar
 2026-11-23 07:31:11 HEARTBEAT phase=trading cycle=21 open=1 errors=0 max_lag=-49s fleet_pnl=$-28.77
+2026-11-23 07:36:11 HEARTBEAT phase=trading cycle=26 open=1 errors=0 max_lag=-51s fleet_pnl=$-28.77
+2026-11-23 07:41:11 HEARTBEAT phase=trading cycle=31 open=1 errors=0 max_lag=-52s fleet_pnl=$-28.77
