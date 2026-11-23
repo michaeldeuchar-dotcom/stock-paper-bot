@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+gap_fade_xom,XOM,gap_fade,long,12,2026-11-23,2026-11-23T07:09:00,159.0418,2026-11-23T07:17:00,158.3739,-8.01,-0.42,0,stop,"gap down -1.27% failing (above open 157.94 & VWAP 158.43), fade toward 159.97",8.0,9991.99

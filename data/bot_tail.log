@@ -1,3 +1,6 @@
-2026-11-20 13:04:29 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
-2026-11-20 13:04:35 HEARTBEAT phase=final cycle=1 open=0 errors=0 max_lag=276s fleet_pnl=$-20.75
-2026-11-20 13:04:35 session over, all flat; exiting
+2026-11-23 07:11:23 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
+2026-11-23 07:11:30 ENTER gap_fade_xom long 12 XOM @ 159.04 stop 158.41 tp 159.81 | gap down -1.27% failing (above open 157.94 & VWAP 158.43), fade toward 159.97
+2026-11-23 07:11:30 HEARTBEAT phase=trading cycle=1 open=1 errors=0 max_lag=-49s fleet_pnl=$-20.75
+2026-11-23 07:16:11 HEARTBEAT phase=trading cycle=6 open=1 errors=0 max_lag=12s fleet_pnl=$-20.75
+2026-11-23 07:17:12 EXIT  gap_fade_xom long 12 XOM @ 158.37 (stop) pnl $-8.01
+2026-11-23 07:21:11 HEARTBEAT phase=trading cycle=11 open=0 errors=0 max_lag=-50s fleet_pnl=$-28.77
