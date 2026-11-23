@@ -2,3 +2,4 @@ bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,p
 vwap_pullback_msft,MSFT,vwap_pullback,long,4,2026-11-20,2026-11-20T07:25:00,497.0744,2026-11-20T07:31:00,495.7325,-5.37,-0.27,0,stop,"uptrend (day +0.71%, VWAP rising) pulled back to VWAP 496.20, green bar",6.0,9994.63
 vwap_pullback_msft,MSFT,vwap_pullback,short,4,2026-11-20,2026-11-20T11:00:00,490.6569,2026-11-20T11:26:00,487.7475,11.64,0.593,1,target (gap),"downtrend (day -0.55%, VWAP falling) bounced to VWAP 491.55, red bar",26.0,10006.27
 vwap_pullback_msft,MSFT,vwap_pullback,short,3,2026-11-23,2026-11-23T07:28:00,504.3041,2026-11-23T07:46:00,501.883,7.26,0.48,1,target,"downtrend (day -0.33%, VWAP falling) bounced to VWAP 504.91, red bar",18.0,10013.53
+vwap_pullback_msft,MSFT,vwap_pullback,short,4,2026-11-23,2026-11-23T10:23:00,498.4903,2026-11-23T10:48:00,496.097,9.57,0.48,1,target,"downtrend (day -1.48%, VWAP falling) bounced to VWAP 499.14, red bar",25.0,10023.11
