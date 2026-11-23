@@ -40,3 +40,5 @@
 2026-11-23 09:26:11 HEARTBEAT phase=trading cycle=136 open=1 errors=0 max_lag=-42s fleet_pnl=$-28.80
 2026-11-23 09:30:12 EXIT  rel_strength_wmt long 15 WMT @ 128.42 (time stop) pnl $-0.32
 2026-11-23 09:31:11 HEARTBEAT phase=trading cycle=141 open=0 errors=0 max_lag=-39s fleet_pnl=$-29.12
+2026-11-23 09:36:11 HEARTBEAT phase=trading cycle=146 open=0 errors=0 max_lag=-46s fleet_pnl=$-29.12
+2026-11-23 09:41:11 HEARTBEAT phase=trading cycle=151 open=0 errors=0 max_lag=-49s fleet_pnl=$-29.12
