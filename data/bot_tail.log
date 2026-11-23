@@ -49,3 +49,7 @@
 2026-11-23 10:00:11 ENTER momentum_hhll_nvda short 12 NVDA @ 164.16 stop 164.81 tp 162.84 | 1h -1.54%, eff 19%, LL 3/3 LH 3/3, down/up vol 30.57x
 2026-11-23 10:00:11 EXIT  trend_pullback_cat long 3 CAT @ 547.23 (stop) pnl $-3.62
 2026-11-23 10:01:11 HEARTBEAT phase=trading cycle=171 open=1 errors=0 max_lag=-43s fleet_pnl=$-32.74
+2026-11-23 10:05:11 ENTER rel_strength_wmt long 15 WMT @ 128.86 stop 128.47 tp 129.63 | 1h stock +0.30% vs SPY -0.03% (rel +0.33%), above VWAP 127.82
+2026-11-23 10:06:11 HEARTBEAT phase=trading cycle=176 open=2 errors=0 max_lag=-51s fleet_pnl=$-32.74
+2026-11-23 10:08:11 EXIT  momentum_hhll_nvda short 12 NVDA @ 164.85 (stop) pnl $-8.28
+2026-11-23 10:11:11 HEARTBEAT phase=trading cycle=181 open=1 errors=0 max_lag=-47s fleet_pnl=$-41.02
