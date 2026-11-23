@@ -9,3 +9,8 @@
 2026-11-23 07:31:11 HEARTBEAT phase=trading cycle=21 open=1 errors=0 max_lag=-49s fleet_pnl=$-28.77
 2026-11-23 07:36:11 HEARTBEAT phase=trading cycle=26 open=1 errors=0 max_lag=-51s fleet_pnl=$-28.77
 2026-11-23 07:41:11 HEARTBEAT phase=trading cycle=31 open=1 errors=0 max_lag=-52s fleet_pnl=$-28.77
+2026-11-23 07:45:12 ENTER momentum_hhll_nvda long 11 NVDA @ 168.68 stop 168.01 tp 170.03 | 1h +4.47%, eff 19%, HH 2/3 HL 3/3, up/down vol 2.29x
+2026-11-23 07:46:11 EXIT  vwap_pullback_msft short 3 MSFT @ 501.88 (target) pnl $+7.26
+2026-11-23 07:46:11 EXIT  momentum_hhll_nvda long 11 NVDA @ 167.98 (stop) pnl $-7.79
+2026-11-23 07:46:11 HEARTBEAT phase=trading cycle=36 open=0 errors=0 max_lag=12s fleet_pnl=$-29.29
+2026-11-23 07:51:12 HEARTBEAT phase=trading cycle=41 open=0 errors=0 max_lag=-52s fleet_pnl=$-29.29
