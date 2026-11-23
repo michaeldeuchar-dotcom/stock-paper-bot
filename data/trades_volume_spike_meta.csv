@@ -2,3 +2,4 @@ bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,p
 volume_spike_meta,META,vol_spike,short,3,2026-11-19,2026-11-19T08:53:00,612.2375,2026-11-19T08:55:00,614.197,-5.88,-0.32,0,stop,"volume 3.3x avg, close 612.36 < 30-min low 613.74",2.0,9994.12
 volume_spike_meta,META,vol_spike,short,3,2026-11-19,2026-11-19T10:51:00,599.69,2026-11-19T10:55:00,601.6094,-5.76,-0.32,0,stop,"volume 5.5x avg, close 599.81 < 30-min low 601.62",4.0,9988.36
 volume_spike_meta,META,vol_spike,short,3,2026-11-20,2026-11-20T09:32:00,569.4761,2026-11-20T09:35:00,571.2988,-5.47,-0.32,0,stop,"volume 3.6x avg, close 569.59 < 30-min low 570.42",3.0,9982.9
+volume_spike_meta,META,vol_spike,long,3,2026-11-23,2026-11-23T09:16:00,597.2644,2026-11-23T09:21:00,595.3536,-5.73,-0.32,0,stop,"volume 9.5x avg, close 597.15 > 30-min high 596.90",5.0,9977.16

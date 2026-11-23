@@ -33,3 +33,7 @@
 2026-11-23 09:01:11 HEARTBEAT phase=trading cycle=111 open=1 errors=0 max_lag=12s fleet_pnl=$-23.07
 2026-11-23 09:06:11 HEARTBEAT phase=trading cycle=116 open=1 errors=0 max_lag=-29s fleet_pnl=$-23.07
 2026-11-23 09:11:11 HEARTBEAT phase=trading cycle=121 open=1 errors=0 max_lag=-40s fleet_pnl=$-23.07
+2026-11-23 09:16:12 ENTER volume_spike_meta long 3 META @ 597.26 stop 595.47 tp 600.85 | volume 9.5x avg, close 597.15 > 30-min high 596.90
+2026-11-23 09:16:12 HEARTBEAT phase=trading cycle=126 open=2 errors=0 max_lag=-51s fleet_pnl=$-23.07
+2026-11-23 09:21:11 EXIT  volume_spike_meta long 3 META @ 595.35 (stop) pnl $-5.73
+2026-11-23 09:21:11 HEARTBEAT phase=trading cycle=131 open=1 errors=0 max_lag=-34s fleet_pnl=$-28.80
