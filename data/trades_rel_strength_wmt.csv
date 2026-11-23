@@ -2,3 +2,4 @@ bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,p
 rel_strength_wmt,WMT,rel_strength,short,16,2026-11-19,2026-11-19T08:20:00,124.75,2026-11-19T08:26:00,125.1493,-6.39,-0.32,0,stop,"1h stock -0.97% vs SPY -0.51% (rel -0.46%), below VWAP 124.85",6.0,9993.61
 rel_strength_wmt,WMT,rel_strength,long,15,2026-11-19,2026-11-19T10:05:00,126.2252,2026-11-19T11:35:00,126.5147,4.34,0.229,1,time stop,"1h stock +0.81% vs SPY +0.21% (rel +0.61%), above VWAP 125.09",90.0,9997.95
 rel_strength_wmt,WMT,rel_strength,long,15,2026-11-23,2026-11-23T08:00:00,128.4457,2026-11-23T09:30:00,128.4243,-0.32,-0.017,0,time stop,"1h stock +1.09% vs SPY +0.46% (rel +0.63%), above VWAP 127.44",90.0,9997.63
+rel_strength_wmt,WMT,rel_strength,long,15,2026-11-23,2026-11-23T10:05:00,128.8558,2026-11-23T11:35:00,129.3541,7.48,0.387,1,time stop,"1h stock +0.30% vs SPY -0.03% (rel +0.33%), above VWAP 127.82",90.0,10005.11
