@@ -28,3 +28,6 @@
 2026-11-24 08:25:11 EXIT  vwap_pullback_msft long 4 MSFT @ 496.41 (target) pnl $+9.48
 2026-11-24 08:25:11 ENTER vwap_pullback_msft long 4 MSFT @ 496.61 stop 495.37 tp 499.09 | uptrend (day +1.24%, VWAP rising) pulled back to VWAP 494.40, green bar
 2026-11-24 08:28:11 HEARTBEAT phase=trading cycle=81 open=2 errors=0 max_lag=-45s fleet_pnl=$-34.16
+2026-11-24 08:30:11 ENTER trend_pullback_cat short 3 CAT @ 532.90 stop 533.96 tp 530.77 | 5m downtrend (EMA20<EMA50 by -0.77%), bounced to EMA20 534.41, red close
+2026-11-24 08:33:11 HEARTBEAT phase=trading cycle=86 open=3 errors=0 max_lag=12s fleet_pnl=$-34.16
+2026-11-24 08:38:11 HEARTBEAT phase=trading cycle=91 open=3 errors=0 max_lag=12s fleet_pnl=$-34.16
