@@ -2,3 +2,4 @@
 2026-11-24 12:49:31 HEARTBEAT phase=trading cycle=1 open=0 errors=0 max_lag=-49s fleet_pnl=$-54.02
 2026-11-24 12:54:12 HEARTBEAT phase=trading cycle=6 open=0 errors=0 max_lag=-52s fleet_pnl=$-54.02
 2026-11-24 12:59:12 HEARTBEAT phase=trading cycle=11 open=0 errors=0 max_lag=-53s fleet_pnl=$-54.02
+2026-11-24 13:00:12 session over, all flat; exiting
