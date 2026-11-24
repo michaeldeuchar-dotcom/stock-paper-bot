@@ -31,3 +31,8 @@
 2026-11-24 08:30:11 ENTER trend_pullback_cat short 3 CAT @ 532.90 stop 533.96 tp 530.77 | 5m downtrend (EMA20<EMA50 by -0.77%), bounced to EMA20 534.41, red close
 2026-11-24 08:33:11 HEARTBEAT phase=trading cycle=86 open=3 errors=0 max_lag=12s fleet_pnl=$-34.16
 2026-11-24 08:38:11 HEARTBEAT phase=trading cycle=91 open=3 errors=0 max_lag=12s fleet_pnl=$-34.16
+2026-11-24 08:41:11 EXIT  vwap_pullback_msft long 4 MSFT @ 495.27 (stop) pnl $-5.36
+2026-11-24 08:42:11 EXIT  trend_pullback_cat short 3 CAT @ 530.87 (target) pnl $+6.08
+2026-11-24 08:43:11 HEARTBEAT phase=trading cycle=96 open=1 errors=0 max_lag=12s fleet_pnl=$-33.44
+2026-11-24 08:47:11 EXIT  rel_strength_wmt long 15 WMT @ 131.51 (stop) pnl $-6.33
+2026-11-24 08:48:11 HEARTBEAT phase=trading cycle=101 open=0 errors=0 max_lag=-50s fleet_pnl=$-39.78

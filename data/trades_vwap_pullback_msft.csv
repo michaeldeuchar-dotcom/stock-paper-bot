@@ -5,3 +5,4 @@ vwap_pullback_msft,MSFT,vwap_pullback,short,3,2026-11-23,2026-11-23T07:28:00,504
 vwap_pullback_msft,MSFT,vwap_pullback,short,4,2026-11-23,2026-11-23T10:23:00,498.4903,2026-11-23T10:48:00,496.097,9.57,0.48,1,target,"downtrend (day -1.48%, VWAP falling) bounced to VWAP 499.14, red bar",25.0,10023.11
 vwap_pullback_msft,MSFT,vwap_pullback,long,4,2026-11-24,2026-11-24T07:15:00,494.7789,2026-11-24T07:20:00,493.4433,-5.34,-0.27,0,stop,"uptrend (day +0.87%, VWAP rising) pulled back to VWAP 492.01, green bar",5.0,10017.76
 vwap_pullback_msft,MSFT,vwap_pullback,long,4,2026-11-24,2026-11-24T08:11:00,494.0388,2026-11-24T08:25:00,496.4097,9.48,0.48,1,target,"uptrend (day +0.71%, VWAP rising) pulled back to VWAP 493.31, green bar",14.0,10027.25
+vwap_pullback_msft,MSFT,vwap_pullback,long,4,2026-11-24,2026-11-24T08:25:00,496.6093,2026-11-24T08:41:00,495.2687,-5.36,-0.27,0,stop,"uptrend (day +1.24%, VWAP rising) pulled back to VWAP 494.40, green bar",16.0,10021.88
