@@ -47,3 +47,5 @@
 2026-11-24 09:23:11 HEARTBEAT phase=trading cycle=136 open=0 errors=0 max_lag=-39s fleet_pnl=$-43.30
 2026-11-24 09:25:11 ENTER ema_cross_tsla long 5 TSLA @ 382.47 stop 380.17 tp 388.20 | EMA9 crossed above EMA21 (5m), sep 0.057%
 2026-11-24 09:28:11 HEARTBEAT phase=trading cycle=141 open=1 errors=0 max_lag=12s fleet_pnl=$-43.30
+2026-11-24 09:33:11 HEARTBEAT phase=trading cycle=146 open=1 errors=0 max_lag=-40s fleet_pnl=$-43.30
+2026-11-24 09:38:11 HEARTBEAT phase=trading cycle=151 open=1 errors=0 max_lag=-51s fleet_pnl=$-43.30
