@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+gap_and_go_jpm,JPM,gap_go,short,6,2026-11-24,2026-11-24T07:46:00,313.7572,2026-11-24T07:58:00,315.7781,-12.13,-0.644,0,stop (gap),"gap down -0.61%, broke 15-min low 314.00, below VWAP 316.41",12.0,9987.87
