@@ -5,3 +5,5 @@ momentum_hhll_nvda,NVDA,momentum,short,14,2026-11-20,2026-11-20T08:10:00,137.267
 momentum_hhll_nvda,NVDA,momentum,short,14,2026-11-20,2026-11-20T09:15:00,135.263,2026-11-20T09:33:00,135.8313,-7.95,-0.42,0,stop,"1h -1.77%, eff 21%, LL 3/3 LH 3/3, down/up vol 11.06x",18.0,9967.22
 momentum_hhll_nvda,NVDA,momentum,long,11,2026-11-23,2026-11-23T07:45:00,168.6837,2026-11-23T07:46:00,167.9754,-7.79,-0.42,0,stop,"1h +4.47%, eff 19%, HH 2/3 HL 3/3, up/down vol 2.29x",1.0,9959.43
 momentum_hhll_nvda,NVDA,momentum,short,12,2026-11-23,2026-11-23T10:00:00,164.1572,2026-11-23T10:08:00,164.8468,-8.28,-0.42,0,stop,"1h -1.54%, eff 19%, LL 3/3 LH 3/3, down/up vol 30.57x",8.0,9951.16
+momentum_hhll_nvda,NVDA,momentum,short,13,2026-11-24,2026-11-24T08:00:00,152.1296,2026-11-24T08:14:00,150.9427,15.43,0.78,1,target,"1h -2.60%, eff 19%, LL 3/3 LH 3/3, down/up vol 1.25x",14.0,9966.58
+momentum_hhll_nvda,NVDA,momentum,short,13,2026-11-24,2026-11-24T08:15:00,151.1798,2026-11-24T08:18:00,151.8148,-8.26,-0.42,0,stop,"1h -2.68%, eff 22%, LL 3/3 LH 3/3, down/up vol 7.11x",3.0,9958.33

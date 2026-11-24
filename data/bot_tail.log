@@ -18,3 +18,9 @@
 2026-11-24 08:00:11 ENTER momentum_hhll_nvda short 13 NVDA @ 152.13 stop 152.74 tp 150.91 | 1h -2.60%, eff 19%, LL 3/3 LH 3/3, down/up vol 1.25x
 2026-11-24 08:03:11 HEARTBEAT phase=trading cycle=56 open=2 errors=0 max_lag=-52s fleet_pnl=$-50.82
 2026-11-24 08:08:11 HEARTBEAT phase=trading cycle=61 open=2 errors=0 max_lag=12s fleet_pnl=$-50.82
+2026-11-24 08:11:11 ENTER vwap_pullback_msft long 4 MSFT @ 494.04 stop 492.80 tp 496.51 | uptrend (day +0.71%, VWAP rising) pulled back to VWAP 493.31, green bar
+2026-11-24 08:13:11 HEARTBEAT phase=trading cycle=66 open=3 errors=0 max_lag=-51s fleet_pnl=$-50.82
+2026-11-24 08:14:11 EXIT  momentum_hhll_nvda short 13 NVDA @ 150.94 (target) pnl $+15.43
+2026-11-24 08:15:11 ENTER momentum_hhll_nvda short 13 NVDA @ 151.18 stop 151.78 tp 149.97 | 1h -2.68%, eff 22%, LL 3/3 LH 3/3, down/up vol 7.11x
+2026-11-24 08:18:11 EXIT  momentum_hhll_nvda short 13 NVDA @ 151.81 (stop) pnl $-8.26
+2026-11-24 08:18:11 HEARTBEAT phase=trading cycle=71 open=2 errors=0 max_lag=-42s fleet_pnl=$-43.64
