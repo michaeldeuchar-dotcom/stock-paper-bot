@@ -78,3 +78,7 @@
 2026-11-24 11:38:11 HEARTBEAT phase=trading cycle=271 open=2 errors=0 max_lag=12s fleet_pnl=$-53.07
 2026-11-24 11:43:11 HEARTBEAT phase=trading cycle=276 open=2 errors=0 max_lag=-42s fleet_pnl=$-53.07
 2026-11-24 11:48:11 HEARTBEAT phase=trading cycle=281 open=2 errors=0 max_lag=-51s fleet_pnl=$-53.07
+2026-11-24 11:50:11 EXIT  rel_strength_wmt short 15 WMT @ 131.71 (time stop) pnl $+2.24
+2026-11-24 11:53:11 HEARTBEAT phase=trading cycle=286 open=1 errors=0 max_lag=-43s fleet_pnl=$-50.83
+2026-11-24 11:55:11 EXIT  ema_cross_tsla long 5 TSLA @ 381.83 (EMAs crossed back down) pnl $-3.19
+2026-11-24 11:58:11 HEARTBEAT phase=trading cycle=291 open=0 errors=0 max_lag=-46s fleet_pnl=$-54.02

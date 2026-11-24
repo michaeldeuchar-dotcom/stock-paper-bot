@@ -1,2 +1,3 @@
 bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
 ema_cross_tsla,TSLA,ema_cross,short,5,2026-11-19,2026-11-19T07:25:00,382.9784,2026-11-19T08:53:00,377.3092,28.35,1.48,1,target,"EMA9 crossed below EMA21 (5m), sep 0.030%",88.0,10028.35
+ema_cross_tsla,TSLA,ema_cross,long,5,2026-11-24,2026-11-24T09:25:00,382.4665,2026-11-24T11:55:00,381.8286,-3.19,-0.167,0,EMAs crossed back down,"EMA9 crossed above EMA21 (5m), sep 0.057%",150.0,10025.16
