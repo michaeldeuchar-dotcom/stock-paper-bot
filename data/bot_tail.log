@@ -15,3 +15,6 @@
 2026-11-24 07:53:11 HEARTBEAT phase=trading cycle=46 open=2 errors=0 max_lag=-52s fleet_pnl=$-38.69
 2026-11-24 07:58:11 EXIT  gap_and_go_jpm short 6 JPM @ 315.78 (stop (gap)) pnl $-12.13
 2026-11-24 07:58:11 HEARTBEAT phase=trading cycle=51 open=1 errors=0 max_lag=-50s fleet_pnl=$-50.82
+2026-11-24 08:00:11 ENTER momentum_hhll_nvda short 13 NVDA @ 152.13 stop 152.74 tp 150.91 | 1h -2.60%, eff 19%, LL 3/3 LH 3/3, down/up vol 1.25x
+2026-11-24 08:03:11 HEARTBEAT phase=trading cycle=56 open=2 errors=0 max_lag=-52s fleet_pnl=$-50.82
+2026-11-24 08:08:11 HEARTBEAT phase=trading cycle=61 open=2 errors=0 max_lag=12s fleet_pnl=$-50.82
