@@ -6,3 +6,6 @@
 2026-11-25 07:21:11 ENTER vwap_pullback_msft short 4 MSFT @ 479.89 stop 481.09 tp 477.49 | downtrend (day -1.12%, VWAP falling) bounced to VWAP 483.76, red bar
 2026-11-25 07:22:11 EXIT  vwap_pullback_msft short 4 MSFT @ 481.18 (stop) pnl $-5.18
 2026-11-25 07:23:11 HEARTBEAT phase=trading cycle=11 open=0 errors=0 max_lag=-52s fleet_pnl=$-49.92
+2026-11-25 07:28:11 HEARTBEAT phase=trading cycle=16 open=0 errors=0 max_lag=-47s fleet_pnl=$-49.92
+2026-11-25 07:30:11 ENTER rsi_vwap_revert_amzn long 8 AMZN @ 237.65 stop 236.46 tp 239.59 | RSI 22 oversold, -0.91% vs VWAP 239.78; target back toward VWAP
+2026-11-25 07:33:11 HEARTBEAT phase=trading cycle=21 open=1 errors=0 max_lag=-43s fleet_pnl=$-49.92
