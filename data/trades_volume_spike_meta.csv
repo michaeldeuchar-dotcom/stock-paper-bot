@@ -4,3 +4,4 @@ volume_spike_meta,META,vol_spike,short,3,2026-11-19,2026-11-19T10:51:00,599.69,2
 volume_spike_meta,META,vol_spike,short,3,2026-11-20,2026-11-20T09:32:00,569.4761,2026-11-20T09:35:00,571.2988,-5.47,-0.32,0,stop,"volume 3.6x avg, close 569.59 < 30-min low 570.42",3.0,9982.9
 volume_spike_meta,META,vol_spike,long,3,2026-11-23,2026-11-23T09:16:00,597.2644,2026-11-23T09:21:00,595.3536,-5.73,-0.32,0,stop,"volume 9.5x avg, close 597.15 > 30-min high 596.90",5.0,9977.16
 volume_spike_meta,META,vol_spike,long,3,2026-11-23,2026-11-23T11:06:00,600.11,2026-11-23T11:12:00,598.19,-5.76,-0.32,0,stop,"volume 4.5x avg, close 599.99 > 30-min high 599.94",6.0,9971.4
+volume_spike_meta,META,vol_spike,long,3,2026-11-25,2026-11-25T10:48:00,607.7315,2026-11-25T10:56:00,605.7871,-5.83,-0.32,0,stop,"volume 3.5x avg, close 607.61 > 30-min high 607.24",8.0,9965.57
