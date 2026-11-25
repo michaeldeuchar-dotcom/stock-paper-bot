@@ -29,3 +29,7 @@
 2026-11-25 08:58:11 HEARTBEAT phase=trading cycle=106 open=0 errors=0 max_lag=-51s fleet_pnl=$-59.81
 2026-11-25 09:03:12 HEARTBEAT phase=trading cycle=111 open=0 errors=0 max_lag=-52s fleet_pnl=$-59.81
 2026-11-25 09:04:12 ENTER vwap_pullback_msft short 4 MSFT @ 482.38 stop 483.59 tp 479.97 | downtrend (day -0.61%, VWAP falling) bounced to VWAP 482.53, red bar
+2026-11-25 09:06:12 EXIT  vwap_pullback_msft short 4 MSFT @ 483.69 (stop) pnl $-5.21
+2026-11-25 09:08:12 HEARTBEAT phase=trading cycle=116 open=0 errors=0 max_lag=-47s fleet_pnl=$-65.02
+2026-11-25 09:10:11 ENTER momentum_hhll_nvda long 13 NVDA @ 143.97 stop 143.39 tp 145.12 | 1h +1.45%, eff 19%, HH 2/3 HL 2/3, up/down vol 2.11x
+2026-11-25 09:13:11 HEARTBEAT phase=trading cycle=121 open=1 errors=0 max_lag=12s fleet_pnl=$-65.02
