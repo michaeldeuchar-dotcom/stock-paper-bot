@@ -14,3 +14,5 @@
 2026-11-25 07:44:12 EXIT  rsi_vwap_revert_amzn long 8 AMZN @ 236.42 (stop) pnl $-9.88
 2026-11-25 07:48:11 HEARTBEAT phase=trading cycle=36 open=0 errors=0 max_lag=-47s fleet_pnl=$-59.81
 2026-11-25 07:53:12 HEARTBEAT phase=trading cycle=41 open=0 errors=0 max_lag=-52s fleet_pnl=$-59.81
+2026-11-25 07:58:12 HEARTBEAT phase=trading cycle=46 open=0 errors=0 max_lag=-49s fleet_pnl=$-59.81
+2026-11-25 08:03:12 HEARTBEAT phase=trading cycle=51 open=0 errors=0 max_lag=-52s fleet_pnl=$-59.81
