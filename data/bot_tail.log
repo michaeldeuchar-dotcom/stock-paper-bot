@@ -80,3 +80,5 @@
 2026-11-25 12:23:12 HEARTBEAT phase=trading cycle=311 open=0 errors=0 max_lag=-53s fleet_pnl=$-72.16
 2026-11-25 12:28:12 HEARTBEAT phase=trading cycle=316 open=0 errors=0 max_lag=-51s fleet_pnl=$-72.16
 2026-11-25 12:33:11 HEARTBEAT phase=trading cycle=321 open=0 errors=0 max_lag=-46s fleet_pnl=$-72.16
+2026-11-25 12:38:11 HEARTBEAT phase=trading cycle=326 open=0 errors=0 max_lag=-47s fleet_pnl=$-72.16
+2026-11-25 12:43:11 HEARTBEAT phase=trading cycle=331 open=0 errors=0 max_lag=-50s fleet_pnl=$-72.16
