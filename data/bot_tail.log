@@ -38,3 +38,5 @@
 2026-11-25 09:20:12 ENTER momentum_hhll_nvda long 13 NVDA @ 145.27 stop 144.69 tp 146.43 | 1h +2.63%, eff 34%, HH 2/3 HL 2/3, up/down vol 16.29x
 2026-11-25 09:22:11 EXIT  momentum_hhll_nvda long 13 NVDA @ 144.66 (stop) pnl $-7.93
 2026-11-25 09:23:11 HEARTBEAT phase=trading cycle=131 open=0 errors=0 max_lag=12s fleet_pnl=$-58.35
+2026-11-25 09:28:11 HEARTBEAT phase=trading cycle=136 open=0 errors=0 max_lag=-49s fleet_pnl=$-58.35
+2026-11-25 09:33:12 HEARTBEAT phase=trading cycle=141 open=0 errors=0 max_lag=-49s fleet_pnl=$-58.35
