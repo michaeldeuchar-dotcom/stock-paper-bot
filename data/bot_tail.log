@@ -48,3 +48,5 @@
 2026-11-25 09:58:12 HEARTBEAT phase=trading cycle=166 open=1 errors=0 max_lag=12s fleet_pnl=$-58.35
 2026-11-25 10:01:12 EXIT  momentum_hhll_nvda long 13 NVDA @ 145.46 (stop) pnl $-7.97
 2026-11-25 10:03:12 HEARTBEAT phase=trading cycle=171 open=0 errors=0 max_lag=-54s fleet_pnl=$-66.33
+2026-11-25 10:08:11 HEARTBEAT phase=trading cycle=176 open=0 errors=0 max_lag=-44s fleet_pnl=$-66.33
+2026-11-25 10:13:11 HEARTBEAT phase=trading cycle=181 open=0 errors=0 max_lag=12s fleet_pnl=$-66.33
