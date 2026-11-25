@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+rsi_vwap_revert_amzn,AMZN,rsi_revert,long,8,2026-11-25,2026-11-25T07:30:00,237.6515,2026-11-25T07:44:00,236.416,-9.88,-0.52,0,stop,"RSI 22 oversold, -0.91% vs VWAP 239.78; target back toward VWAP",14.0,9990.12
