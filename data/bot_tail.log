@@ -50,3 +50,5 @@
 2026-11-27 09:37:12 HEARTBEAT phase=trading cycle=156 open=5 errors=0 max_lag=12s fleet_pnl=$-92.37
 2026-11-27 09:41:12 EXIT  trend_pullback_cat long 3 CAT @ 559.51 (stop) pnl $-3.70
 2026-11-27 09:42:12 HEARTBEAT phase=trading cycle=161 open=4 errors=0 max_lag=12s fleet_pnl=$-96.07
+2026-11-27 09:47:12 HEARTBEAT phase=trading cycle=166 open=4 errors=0 max_lag=-47s fleet_pnl=$-96.07
+2026-11-27 09:52:12 HEARTBEAT phase=trading cycle=171 open=4 errors=0 max_lag=-53s fleet_pnl=$-96.07
