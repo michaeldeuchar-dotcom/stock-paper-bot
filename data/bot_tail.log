@@ -29,3 +29,8 @@
 2026-11-27 08:27:11 HEARTBEAT phase=trading cycle=86 open=2 errors=0 max_lag=12s fleet_pnl=$-82.85
 2026-11-27 08:32:11 ENTER eod_momentum_ko long 20 KO @ 97.50 stop 97.26 tp 97.99 | EOD momentum up: day +0.72%, last 45m +0.14%, near high 97.49, above VWAP
 2026-11-27 08:32:11 HEARTBEAT phase=trading cycle=91 open=3 errors=0 max_lag=-42s fleet_pnl=$-82.85
+2026-11-27 08:35:11 ENTER momentum_hhll_nvda long 13 NVDA @ 149.28 stop 148.68 tp 150.47 | 1h +1.73%, eff 27%, HH 2/3 HL 3/3, up/down vol 1.28x
+2026-11-27 08:37:12 ENTER vwap_pullback_msft short 4 MSFT @ 491.00 stop 492.23 tp 488.55 | downtrend (day -1.68%, VWAP falling) bounced to VWAP 491.73, red bar
+2026-11-27 08:37:12 HEARTBEAT phase=trading cycle=96 open=5 errors=0 max_lag=-49s fleet_pnl=$-82.85
+2026-11-27 08:40:12 EXIT  momentum_hhll_nvda long 13 NVDA @ 148.65 (stop) pnl $-8.15
+2026-11-27 08:42:12 HEARTBEAT phase=trading cycle=101 open=4 errors=0 max_lag=-53s fleet_pnl=$-91.00
