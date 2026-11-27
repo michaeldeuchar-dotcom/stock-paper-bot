@@ -1,4 +1,5 @@
-2026-11-25 12:54:36 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
-2026-11-25 12:54:43 HEARTBEAT phase=trading cycle=1 open=0 errors=0 max_lag=-52s fleet_pnl=$-72.16
-2026-11-25 12:59:11 HEARTBEAT phase=trading cycle=6 open=0 errors=0 max_lag=-2s fleet_pnl=$-72.16
-2026-11-25 13:00:11 session over, all flat; exiting
+2026-11-27 07:02:39 bot start: 12 paper bots, symbols ['AAPL', 'AMZN', 'CAT', 'JNJ', 'JPM', 'KO', 'META', 'MSFT', 'NVDA', 'SPY', 'TSLA', 'WMT', 'XOM']; PAPER ONLY
+2026-11-27 07:02:46 ENTER orb_aapl short 5 AAPL @ 355.79 stop 357.20 tp 353.69 | ORB down: close 355.86 < 15-min low 356.08 (range 0.79%)
+2026-11-27 07:02:46 HEARTBEAT phase=trading cycle=1 open=1 errors=0 max_lag=-43s fleet_pnl=$-72.16
+2026-11-27 07:07:12 HEARTBEAT phase=trading cycle=6 open=1 errors=0 max_lag=-53s fleet_pnl=$-72.16
+2026-11-27 07:12:12 HEARTBEAT phase=trading cycle=11 open=1 errors=0 max_lag=12s fleet_pnl=$-72.16
