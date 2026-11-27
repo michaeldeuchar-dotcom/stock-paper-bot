@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+orb_aapl,AAPL,orb,short,5,2026-11-27,2026-11-27T07:00:00,355.7938,2026-11-27T07:14:00,357.2701,-7.38,-0.415,0,stop,ORB down: close 355.86 < 15-min low 356.08 (range 0.79%),14.0,9992.62
