@@ -14,3 +14,6 @@
 2026-11-27 07:41:12 ENTER orb_aapl long 5 AAPL @ 359.05 stop 357.63 tp 361.18 | ORB up: close 358.98 > 15-min high 358.90 (range 0.79%)
 2026-11-27 07:41:12 ENTER gap_and_go_jpm long 6 JPM @ 323.91 stop 321.97 tp 327.80 | gap up +1.55%, broke 15-min high 323.61, above VWAP 322.44
 2026-11-27 07:42:12 HEARTBEAT phase=trading cycle=41 open=2 errors=0 max_lag=12s fleet_pnl=$-84.84
+2026-11-27 07:45:12 ENTER rsi_vwap_revert_amzn short 7 AMZN @ 253.66 stop 254.93 tp 250.78 | RSI 76 overbought, +1.26% vs VWAP 250.55; target back toward VWAP
+2026-11-27 07:47:11 HEARTBEAT phase=trading cycle=46 open=3 errors=0 max_lag=-53s fleet_pnl=$-84.84
+2026-11-27 07:52:12 HEARTBEAT phase=trading cycle=51 open=3 errors=0 max_lag=-49s fleet_pnl=$-84.84
