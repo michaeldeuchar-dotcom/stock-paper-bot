@@ -34,3 +34,6 @@
 2026-11-27 08:37:12 HEARTBEAT phase=trading cycle=96 open=5 errors=0 max_lag=-49s fleet_pnl=$-82.85
 2026-11-27 08:40:12 EXIT  momentum_hhll_nvda long 13 NVDA @ 148.65 (stop) pnl $-8.15
 2026-11-27 08:42:12 HEARTBEAT phase=trading cycle=101 open=4 errors=0 max_lag=-53s fleet_pnl=$-91.00
+2026-11-27 08:45:12 EXIT  rsi_vwap_revert_amzn short 7 AMZN @ 253.86 (time stop) pnl $-1.38
+2026-11-27 08:47:12 HEARTBEAT phase=trading cycle=106 open=3 errors=0 max_lag=-52s fleet_pnl=$-92.37
+2026-11-27 08:52:12 HEARTBEAT phase=trading cycle=111 open=3 errors=0 max_lag=-49s fleet_pnl=$-92.37
