@@ -22,3 +22,7 @@
 2026-11-27 08:02:12 HEARTBEAT phase=trading cycle=61 open=4 errors=0 max_lag=-52s fleet_pnl=$-84.84
 2026-11-27 08:07:11 HEARTBEAT phase=trading cycle=66 open=4 errors=0 max_lag=12s fleet_pnl=$-84.84
 2026-11-27 08:12:12 HEARTBEAT phase=trading cycle=71 open=4 errors=0 max_lag=-43s fleet_pnl=$-84.84
+2026-11-27 08:17:11 HEARTBEAT phase=trading cycle=76 open=4 errors=0 max_lag=12s fleet_pnl=$-84.84
+2026-11-27 08:19:11 EXIT  vwap_pullback_msft short 4 MSFT @ 489.01 (target) pnl $+9.44
+2026-11-27 08:21:12 EXIT  orb_aapl long 5 AAPL @ 357.56 (stop) pnl $-7.45
+2026-11-27 08:22:11 HEARTBEAT phase=trading cycle=81 open=2 errors=0 max_lag=12s fleet_pnl=$-82.85
