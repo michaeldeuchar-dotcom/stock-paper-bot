@@ -5,3 +5,4 @@ rel_strength_wmt,WMT,rel_strength,long,15,2026-11-23,2026-11-23T08:00:00,128.445
 rel_strength_wmt,WMT,rel_strength,long,15,2026-11-23,2026-11-23T10:05:00,128.8558,2026-11-23T11:35:00,129.3541,7.48,0.387,1,time stop,"1h stock +0.30% vs SPY -0.03% (rel +0.33%), above VWAP 127.82",90.0,10005.11
 rel_strength_wmt,WMT,rel_strength,long,15,2026-11-24,2026-11-24T07:40:00,131.9364,2026-11-24T08:47:00,131.5143,-6.33,-0.32,0,stop,"1h stock +0.83% vs SPY +0.19% (rel +0.64%), above VWAP 131.87",67.0,9998.78
 rel_strength_wmt,WMT,rel_strength,short,15,2026-11-24,2026-11-24T10:20:00,131.8636,2026-11-24T11:50:00,131.7141,2.24,0.113,1,time stop,"1h stock -0.26% vs SPY +0.06% (rel -0.32%), below VWAP 131.91",90.0,10001.02
+rel_strength_wmt,WMT,rel_strength,long,15,2026-11-27,2026-11-27T09:10:00,132.6765,2026-11-27T09:55:00,132.9134,3.55,0.179,1,flat by close,"1h stock +0.53% vs SPY +0.16% (rel +0.37%), above VWAP 132.08",45.0,10004.57

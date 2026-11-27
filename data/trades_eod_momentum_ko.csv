@@ -1,0 +1,2 @@
+bot,symbol,strategy,side,shares,date,entry_ts,entry_px,exit_ts,exit_px,pnl_usd,pnl_pct,won,exit_reason,entry_reason,hold_min,equity_after
+eod_momentum_ko,KO,eod_momentum,long,20,2026-11-27,2026-11-27T08:32:00,97.5032,2026-11-27T09:55:00,97.5955,1.85,0.095,1,flat by close,"EOD momentum up: day +0.72%, last 45m +0.14%, near high 97.49, above VWAP",83.0,10001.85
