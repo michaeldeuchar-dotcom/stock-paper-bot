@@ -6,3 +6,6 @@
 2026-11-27 07:14:11 EXIT  orb_aapl short 5 AAPL @ 357.27 (stop) pnl $-7.38
 2026-11-27 07:17:11 HEARTBEAT phase=trading cycle=16 open=0 errors=0 max_lag=-44s fleet_pnl=$-79.54
 2026-11-27 07:22:11 HEARTBEAT phase=trading cycle=21 open=0 errors=0 max_lag=-49s fleet_pnl=$-79.54
+2026-11-27 07:27:12 HEARTBEAT phase=trading cycle=26 open=0 errors=0 max_lag=-44s fleet_pnl=$-79.54
+2026-11-27 07:31:12 ENTER vwap_pullback_msft short 4 MSFT @ 490.23 stop 491.45 tp 487.78 | downtrend (day -1.83%, VWAP falling) bounced to VWAP 491.97, red bar
+2026-11-27 07:32:12 HEARTBEAT phase=trading cycle=31 open=1 errors=0 max_lag=12s fleet_pnl=$-79.54
