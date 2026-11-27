@@ -44,3 +44,6 @@
 2026-11-27 09:12:12 HEARTBEAT phase=trading cycle=131 open=4 errors=0 max_lag=12s fleet_pnl=$-92.37
 2026-11-27 09:17:12 HEARTBEAT phase=trading cycle=136 open=4 errors=0 max_lag=-49s fleet_pnl=$-92.37
 2026-11-27 09:22:12 HEARTBEAT phase=trading cycle=141 open=4 errors=0 max_lag=-45s fleet_pnl=$-92.37
+2026-11-27 09:25:12 ENTER trend_pullback_cat long 3 CAT @ 560.74 stop 559.62 tp 562.99 | 5m uptrend (EMA20>EMA50 by 1.06%), dipped to EMA20 560.32, green close
+2026-11-27 09:27:12 HEARTBEAT phase=trading cycle=146 open=5 errors=0 max_lag=-43s fleet_pnl=$-92.37
+2026-11-27 09:32:12 HEARTBEAT phase=trading cycle=151 open=5 errors=0 max_lag=-49s fleet_pnl=$-92.37
