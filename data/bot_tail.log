@@ -26,3 +26,6 @@
 2026-11-27 08:19:11 EXIT  vwap_pullback_msft short 4 MSFT @ 489.01 (target) pnl $+9.44
 2026-11-27 08:21:12 EXIT  orb_aapl long 5 AAPL @ 357.56 (stop) pnl $-7.45
 2026-11-27 08:22:11 HEARTBEAT phase=trading cycle=81 open=2 errors=0 max_lag=12s fleet_pnl=$-82.85
+2026-11-27 08:27:11 HEARTBEAT phase=trading cycle=86 open=2 errors=0 max_lag=12s fleet_pnl=$-82.85
+2026-11-27 08:32:11 ENTER eod_momentum_ko long 20 KO @ 97.50 stop 97.26 tp 97.99 | EOD momentum up: day +0.72%, last 45m +0.14%, near high 97.49, above VWAP
+2026-11-27 08:32:11 HEARTBEAT phase=trading cycle=91 open=3 errors=0 max_lag=-42s fleet_pnl=$-82.85
